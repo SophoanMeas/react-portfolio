@@ -1,8 +1,7 @@
 
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import Header from './components/Navbar/Header'
-import MobileSideBar from './components/MobileSideBar/MobileSideBar';
+import Home from './pages/Home';
 
 const theme = {
   colors: {
@@ -20,8 +19,7 @@ function App() {
   <ThemeProvider theme = {theme}>
     <>
   <BrowserRouter>
-  <MobileSideBar/>
-   <Header/>
+ <Home/>
   </BrowserRouter>
   </>
   </ThemeProvider>

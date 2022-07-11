@@ -1,13 +1,14 @@
 import React from 'react';
 import { NavbarContainer, NavList, HamburgerIcon, NavMenu, NavItems, LogoName } from '../style/Header.style';
 import {FaBars} from 'react-icons/fa'
-export default function Header() {
+
+export default function Header({toggleMenu}) {
   return (
       <>
         <NavbarContainer>
           <NavList>
             <LogoName to='/'>Sophoan Meas</LogoName>
-            <HamburgerIcon>
+            <HamburgerIcon onClick={toggleMenu}>
               <FaBars/>
             </HamburgerIcon>
             <NavMenu>

@@ -1,10 +1,10 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink} from '../style/MobileSideBar.style'
 
-export default function MobileSideBar() {
+export default function MobileSideBar({isOpen, toggleMenu}) {
   return (
-    <SidebarContainer>
-      <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggleMenu}>
+      <Icon onClick={toggleMenu}>
         <CloseIcon/>
       </Icon>
       <SidebarWrapper>
