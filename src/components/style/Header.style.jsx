@@ -3,13 +3,15 @@ import { Link as LinkRouter, NavLink } from 'react-router-dom';
 
 export const NavbarContainer = styled.nav`
   background: ${({theme}) => theme.colors.header};
-  height: 80px;
+  height: 90px;
   /* margin-top: -80px; */
   justify-content: center;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 10;
+  padding:0;
+  margin: 0;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all eas;

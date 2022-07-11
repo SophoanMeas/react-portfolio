@@ -5,7 +5,7 @@ import Home from './pages/Home';
 
 const theme = {
   colors: {
-    header: '#1e2321',
+    header: '#1a1a18',
     activeNavLink:'#4f7273',
     hero: '#1b3025',
     footer: '#4f7273',
