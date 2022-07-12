@@ -5,12 +5,15 @@ import Home from './pages/Home';
 
 const theme = {
   colors: {
-    header: '#1a1a18',
-    activeNavLink:'#4f7273',
+    header: '#35347f',
+    activeNavLink:'#00C9A7',
     hero: '#1b3025',
-    footer: '#4f7273',
-    font: 'black',
-    secondaryColor: '#f3f6f6'
+    footer: '#35347f',
+    fontColor: '#ffff',
+    pBgColor: '#000000',
+    sBgColor: '#525073',
+    pColor: '#93939d',
+    sColor: '#f3f6f6'
   }
 }
 

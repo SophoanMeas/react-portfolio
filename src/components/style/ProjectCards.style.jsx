@@ -5,7 +5,7 @@ export const ProjectContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
+    background: ${({theme}) => theme.colors.pBgColor};
     height: 800px;
 
 @media screen and (max-width: 760px){

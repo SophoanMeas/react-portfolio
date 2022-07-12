@@ -3,6 +3,7 @@ import MobileSideBar from '../components/MobileSideBar/MobileSideBar'
 import Header from '../components/Navbar/Header'
 import Hero from '../components/Hero/Hero'
 import ProjectCard from '../components/ProjectCard/ProjectCards'
+import Footer from '../components/Footer/Footer'
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
   <Header toggleMenu={toggleMenu}/>
   <Hero/>
   <ProjectCard/>
+  <Footer/>
   </>
   )
 }

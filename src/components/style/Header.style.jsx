@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { Link as LinkRouter, NavLink } from 'react-router-dom';
 
 export const NavbarContainer = styled.nav`
-  background: ${({theme}) => theme.colors.header};
+  /* background-color: transparent; */
+  background: ${({ theme }) => theme.colors.header};
   height: 90px;
   /* margin-top: -80px; */
   justify-content: center;
@@ -10,11 +11,11 @@ export const NavbarContainer = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  padding:0;
+  padding: 0;
   margin: 0;
 
   @media screen and (max-width: 960px) {
-    transition: 0.8s all eas;
+    transition: 0.8s all ease-in-out;
   }
 `;
 
@@ -30,15 +31,16 @@ export const NavList = styled.div`
 `;
 
 export const LogoName = styled(LinkRouter)`
-   color: ${({theme}) => theme.colors.secondaryColor};
+  color: ${({ theme }) => theme.colors.fontColor};
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
   text-decoration: none;
 `;
+
 
 export const HamburgerIcon = styled.div`
   display: none;
@@ -51,7 +53,7 @@ export const HamburgerIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.5rem;
     cursor: pointer;
-    color: ${({theme}) => theme.colors.secondaryColor};
+    color: ${({ theme }) => theme.colors.fontColor};
   }
 `;
 
@@ -69,17 +71,16 @@ export const NavMenu = styled.ul`
 
 export const NavItems = styled(NavLink)`
   display: flex;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
-  color: ${({theme}) => theme.colors.secondaryColor};
+  color: ${({ theme }) => theme.colors.fontColor};
   cursor: pointer;
 
-  &.active{
-    border-bottom: 5px solid #01bf71;        
-      }
+  &.active {
+    /* border-bottom: 5px solid #01bf71; */
+    border-bottom: 5px solid ${({ theme }) => theme.colors.activeNavLink};
+  }
 `;
-
-
