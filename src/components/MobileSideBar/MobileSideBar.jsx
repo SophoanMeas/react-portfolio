@@ -1,5 +1,5 @@
 import React from 'react'
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink} from '../style/MobileSideBar.style'
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink} from './MobileSideBar.style'
 
 export default function MobileSideBar({isOpen, toggleMenu}) {
   return (

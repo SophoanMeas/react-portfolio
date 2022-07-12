@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectContainer, ProjectWrapper, ProjectCard, ProjectH1, ProjectH2, ProjectIcon } from '../style/ProjectCards.style'
+import { ProjectContainer, ProjectWrapper, ProjectCard, ProjectH1, ProjectH2, ProjectIcon } from './ProjectCards.style'
 import Icon1 from '../../assets/images/svg/coding1.svg'
 import Icon2 from '../../assets/images/svg/coding2.svg'
 import Icon3 from '../../assets/images/svg/coding3.svg'

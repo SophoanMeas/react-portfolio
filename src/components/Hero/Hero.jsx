@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProfileImage, HeroContainer, HeroBg, HeroContent, HeroH1, HeroP } from '../style/Hero.style'
+import { ProfileImage, HeroContainer, HeroBg, HeroContent, HeroH1, HeroP } from './Hero.style'
 
 export default function Hero() {
   return (

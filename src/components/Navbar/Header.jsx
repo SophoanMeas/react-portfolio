@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavbarContainer, NavList, HamburgerIcon, NavMenu, NavItems, LogoName } from '../style/Header.style';
+import { NavbarContainer, NavList, HamburgerIcon, NavMenu, NavItems, LogoName } from './Header.style';
 import {FaBars} from 'react-icons/fa'
 
 export default function Header({toggleMenu}) {
@@ -7,7 +7,7 @@ export default function Header({toggleMenu}) {
       <>
         <NavbarContainer>
           <NavList>
-            <LogoName to='/'>Sophoan Meas</LogoName>
+            <LogoName to='/home'>Sophoan Meas</LogoName>
             <HamburgerIcon onClick={toggleMenu}>
               <FaBars/>
             </HamburgerIcon>

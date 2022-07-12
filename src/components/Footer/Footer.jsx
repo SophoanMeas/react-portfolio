@@ -7,7 +7,7 @@ import {
   FooterLink,
   Icons,
   // FooterCopyRight,
-} from '../style/Footer.style';
+} from './Footer.style';
 
 import { IoLogoGithub, IoLogoStackoverflow, IoLogoLinkedin } from 'react-icons/io5';
 
