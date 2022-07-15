@@ -39,6 +39,12 @@ export const LogoName = styled(LinkRouter)`
   align-items: center;
   margin-left: 24px;
   text-decoration: none;
+  transition: .2s ease-in-out;
+
+:hover{
+  color: #98676f;
+  transform: translate(0px, 10px);
+}
 `;
 
 

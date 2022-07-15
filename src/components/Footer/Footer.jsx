@@ -6,34 +6,66 @@ import {
   FooterHeader,
   FooterLink,
   Icons,
-  // FooterCopyRight,
+  FooterCopyRight,
 } from './Footer.style';
 
-import { IoLogoGithub, IoLogoStackoverflow, IoLogoLinkedin } from 'react-icons/io5';
+import {
+  IoLogoGithub,
+  IoLogoStackoverflow,
+  IoLogoLinkedin,
+} from 'react-icons/io5';
 
 export default function Footer() {
   return (
-    <FooterContainer>
-      <FooterWrapper>
-        <FooterLinkItems>
-          <FooterHeader>Contacts</FooterHeader>
-          <FooterLink>
-          <a href="https://github.com/SophoanMeas" target="_blank" rel="noreferrer">  <Icons>
-              <IoLogoGithub/>
-            </Icons></a>
+    <>
+      <FooterContainer>
+        <FooterWrapper>
+          <FooterLinkItems>
+            <FooterHeader></FooterHeader>
+            <FooterLink>
+              <a
+                href='https://github.com/SophoanMeas'
+                target='_blank'
+                rel='noreferrer'
+              >
+                {' '}
+                <Icons>
+                  <IoLogoGithub />
+                </Icons>
+              </a>
             </FooterLink>
             <FooterLink>
-          <a href="https://www.linkedin.com/in/sophoan-meas/" target="_blank" rel="noreferrer">  <Icons>
-              <IoLogoLinkedin/>
-            </Icons></a>
+              <a
+                href='https://www.linkedin.com/in/sophoan-meas/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                {' '}
+                <Icons>
+                  <IoLogoLinkedin />
+                </Icons>
+              </a>
             </FooterLink>
             <FooterLink>
-          <a href="https://stackoverflow.com/users/19531652/ponny-meas" target="_blank" rel="noreferrer">  <Icons>
-              <IoLogoStackoverflow/>
-            </Icons></a>
+              <a
+                href='https://stackoverflow.com/users/19531652/ponny-meas'
+                target='_blank'
+                rel='noreferrer'
+              >
+                {' '}
+                <Icons>
+                  <IoLogoStackoverflow />
+                </Icons>
+              </a>
+                    
+      <FooterCopyRight>&copy;{new Date().getFullYear()} by Sophoan Meas</FooterCopyRight>
             </FooterLink>
-        </FooterLinkItems>
-      </FooterWrapper>
-    </FooterContainer>
+   
+   
+          </FooterLinkItems>
+        </FooterWrapper>
+      </FooterContainer>
+ 
+    </>
   );
 }

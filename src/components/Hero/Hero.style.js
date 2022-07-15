@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import HeroBackground from '../../assets/images/bg.jpg';
+import HeroBackground from '../../assets/images/hero-bg.jpg';
 import ProfileImg from '../../assets/images/profile-pic.png';
 
 export const ProfileImage = styled.div`
@@ -41,7 +41,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 700px;
+  height: 100vh;
   position: relative;
   z-index: 1;
 `;

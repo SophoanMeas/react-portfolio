@@ -1,31 +1,63 @@
-import React from 'react'
-import { ProjectContainer, ProjectWrapper, ProjectCard, ProjectH1, ProjectH2, ProjectIcon } from './ProjectCards.style'
-import Icon1 from '../../assets/images/svg/coding1.svg'
-import Icon2 from '../../assets/images/svg/coding2.svg'
-import Icon3 from '../../assets/images/svg/coding3.svg'
+import React, { useState } from 'react';
+import {
+  ProjectContainer,
+  ProjectWrapper,
+  ProjectCard,
+  ProjectH1,
+  ProjectH2,
+  ProjectIcon,
+} from './ProjectCards.style';
+import CodeQuiz from '../../assets/images/projects/code-quiz-challenge.png'
+import WeatherDashboard from '../../assets/images/projects/weather-dashboard.png'
+import NoteTaker from '../../assets/images/projects/note-taker.png'
+import MoviesTv from '../../assets/images/projects/movies-tv-shows.png'
+import QuoteSmith from '../../assets/images/projects/quotes-smith.png'
 
 export default function ProjectCards() {
+
+  const [projects] = useState([
+    {
+      title: 'Password Generator',
+      link: 'https://sophoanmeas.github.io/code-quiz/Develop/index.html',
+      image: CodeQuiz,
+    },
+    {
+      title: 'Weather Dashboard',
+      link: 'https://sophoanmeas.github.io/weather-dashboard/develop/index.html',
+      image: WeatherDashboard,
+    },
+    {
+      title: 'Note Taker',
+      link: 'https://note-taker-pon.herokuapp.com',
+      image: NoteTaker,
+    },
+    {
+      title: 'Movies-Tv-Shows',
+      link: 'https://sophoanmeas.github.io/movies-tv-shows/index.html',
+      image: MoviesTv,
+    },
+    {
+      title: 'Quote-Smith',
+      link: 'https://group2-quotesmith.herokuapp.com/',
+      image: QuoteSmith,
+    }
+  ]);
+
   return (
     <div>
-      <ProjectContainer id="projects">
+      <ProjectContainer id='projects'>
         <ProjectH1>My Projects</ProjectH1>
-    <ProjectWrapper>
-
-        <ProjectCard>
-            <ProjectIcon src={Icon1}/>
-            <ProjectH2>Movies</ProjectH2>
-        </ProjectCard>
-        <ProjectCard>
-            <ProjectIcon src={Icon2}/>
-            <ProjectH2>Movies</ProjectH2>
-        </ProjectCard>
-        <ProjectCard>
-            <ProjectIcon src={Icon3}/>
-            <ProjectH2>Movies</ProjectH2>
-        </ProjectCard>
-    </ProjectWrapper>
-
-    </ProjectContainer>
+        <ProjectWrapper>
+          {projects.map((items) => (
+            <ProjectCard>
+              <ProjectIcon src={items.image} />
+              <a href={items.link} target="_blank" rel="noreferrer">
+              <ProjectH2>{items.title}</ProjectH2>
+            </a>        
+            </ProjectCard>
+          ))}
+        </ProjectWrapper>
+      </ProjectContainer>
     </div>
-  )
+  );
 }

@@ -12,7 +12,7 @@ export default function Contact() {
                 <FormLabel htmlFor="for">Name:</FormLabel>
                 <FormInput placeholder="Name" type="name" id="name" required/>
                 <FormLabel htmlFor="for">Email address:</FormLabel>
-                <FormInput placeholder="email" type="email" id="email" required/>
+                <FormInput placeholder="Email" type="email" id="email" required/>
                 <FormLabel htmlFor="for">Message:</FormLabel>
                 <FormTextArea type="text" id="text" required/>
                 <FormButton>Submit</FormButton>

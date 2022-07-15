@@ -5,10 +5,15 @@ export const FooterContainer = styled.footer`
 `;
 export const FooterWrapper = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  position: sticky;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content:  space-evenly;
   align-items: center;
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 20px;
 `;
 
 export const FooterLinkItems = styled.div`
@@ -67,13 +72,24 @@ export const FooterLink = styled.div`
   text-decoration: none;
   margin-bottom: 0.5rem;
   font-size: 14px;
+  
+  display: flex;
+    flex-direction: column;
+  justify-content: center;
 
-  &:hover {
+
+  a:hover {
     color: ${({ theme }) => theme.colors.activeNavLink};
     transition: 0.3s ease-in-out;
   }
 `;
 
 export const FooterCopyRight = styled.div`
-  font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  min-width: 100%;
+  font-size: 16px;
+  
 `;
