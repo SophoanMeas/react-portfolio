@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ProjectBg from '../../assets/images/background/projects-bg.jpg'
+import ProjectBg from '../../assets/images/background/projects-bg.jpg';
 
 export const ProjectContainer = styled.div`
   display: flex;
@@ -66,7 +66,7 @@ export const ProjectCard = styled.div`
   border-radius: 10px;
   min-height: 100%;
   padding: 40px;
-  background: rgba(253, 253, 253, .25);
+  background: rgba(253, 253, 253, 0.25);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
@@ -82,7 +82,6 @@ export const ProjectCard = styled.div`
 `;
 
 export const ProjectIcon = styled.img`
-
   height: 160px;
   width: 240px;
   margin-bottom: 10px;
@@ -101,12 +100,12 @@ export const ProjectH1 = styled.h1`
 export const ProjectH2 = styled.h1`
   color: #000;
   font-size: 1rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   text-decoration: none;
 
   :hover {
     color: #00c9a7;
-    transition: .1s ease-in-out;
+    transition: 0.1s ease-in-out;
   }
 
   @media screen and (max-width: 480px) {

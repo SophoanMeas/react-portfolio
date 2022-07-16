@@ -4,7 +4,6 @@ import { Link as LinkRouter, NavLink } from 'react-router-dom';
 export const NavbarContainer = styled.nav`
   display: flex;
   justify-content: space-evenly;
-  /* justify-content: flex-start; */
   align-items: center;
   position: sticky;
   background: ${({ theme }) => theme.colors.header};
@@ -86,9 +85,8 @@ export const NavItems = styled(NavLink)`
   &:hover {
     color: #98676f;
   }
-  
+
   &.active {
-    /* border-bottom: 5px solid #01bf71; */
     border-bottom: 5px solid ${({ theme }) => theme.colors.activeNavLink};
   }
 `;

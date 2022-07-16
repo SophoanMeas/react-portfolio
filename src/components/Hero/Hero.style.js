@@ -16,12 +16,12 @@ export const ProfileImage = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   background-color: white;
-  
-  &:hover{
-        transform: scale(1.05);
-        transition: all 0.2s ease-in-out;
-        cursor: pointer;
-    }
+
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
 `;
 
 export const HeroContainer = styled.div`

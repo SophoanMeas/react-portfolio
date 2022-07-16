@@ -14,8 +14,8 @@ export default function Hero() {
     <HeroContainer>
       <HeroBg></HeroBg>
       <HeroContent>
-      <HeroH1 className="animate__animated animate__fadeInDown"> 
-         Welcome to my profile page
+        <HeroH1 className='animate__animated animate__fadeInDown'>
+          Welcome to my profile page
         </HeroH1>
         <ProfileImage></ProfileImage>
         <HeroP>
@@ -27,4 +27,3 @@ export default function Hero() {
     </HeroContainer>
   );
 }
-

@@ -60,7 +60,7 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgba(253, 253, 253, .12);
+  background: rgba(253, 253, 253, 0.12);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);

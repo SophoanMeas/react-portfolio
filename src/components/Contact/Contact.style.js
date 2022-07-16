@@ -61,9 +61,9 @@ export const Form = styled.form`
     display: flex;
     flex-direction: column;
     padding: 32px 32px;
-    /* width: 35vh; */
   }
 `;
+
 export const FormLabel = styled.label`
   color: #ffff;
   font-size: 16px;

@@ -7,14 +7,13 @@ import {
   ProjectH2,
   ProjectIcon,
 } from './ProjectCards.style';
-import CodeQuiz from '../../assets/images/projects/code-quiz-challenge.png'
-import WeatherDashboard from '../../assets/images/projects/weather-dashboard.png'
-import NoteTaker from '../../assets/images/projects/note-taker.png'
-import MoviesTv from '../../assets/images/projects/movies-tv-shows.png'
-import QuoteSmith from '../../assets/images/projects/quotes-smith.png'
+import CodeQuiz from '../../assets/images/projects/code-quiz-challenge.png';
+import WeatherDashboard from '../../assets/images/projects/weather-dashboard.png';
+import NoteTaker from '../../assets/images/projects/note-taker.png';
+import MoviesTv from '../../assets/images/projects/movies-tv-shows.png';
+import QuoteSmith from '../../assets/images/projects/quotes-smith.png';
 
 export default function ProjectCards() {
-
   const [projects] = useState([
     {
       title: 'Password Generator',
@@ -40,7 +39,7 @@ export default function ProjectCards() {
       title: 'Quote-Smith',
       link: 'https://group2-quotesmith.herokuapp.com/',
       image: QuoteSmith,
-    }
+    },
   ]);
 
   return (
@@ -51,9 +50,9 @@ export default function ProjectCards() {
           {projects.map((items) => (
             <ProjectCard>
               <ProjectIcon src={items.image} />
-              <a href={items.link} target="_blank" rel="noreferrer">
-              <ProjectH2>{items.title}</ProjectH2>
-            </a>        
+              <a href={items.link} target='_blank' rel='noreferrer'>
+                <ProjectH2>{items.title}</ProjectH2>
+              </a>
             </ProjectCard>
           ))}
         </ProjectWrapper>
