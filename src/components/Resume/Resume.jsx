@@ -15,14 +15,16 @@ export default function Resume({ data }) {
       <Container>
         <CardContainer>
           <CardWrapper>
-            {data.map((items) => (
-              <Card>
-                <CardIcon src={items.icon}></CardIcon>
-                <HeaderH1>{items.heading}</HeaderH1>
-                <br></br>
-                <Text>{items.description}</Text>
-              </Card>
-            ))}
+            {data.map((items) => {
+              return (
+                <Card key={items.id}>
+                  <CardIcon src={items.icon} alt=""></CardIcon>
+                  <HeaderH1>{items.heading}</HeaderH1>
+                  <br></br>
+                  <Text>{items.description}</Text>
+                </Card>
+              );
+            })}
           </CardWrapper>
         </CardContainer>
       </Container>
