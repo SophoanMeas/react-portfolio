@@ -28,7 +28,6 @@ export default function Footer() {
                 target='_blank'
                 rel='noreferrer'
               >
-                {' '}
                 <Icons>
                   <IoLogoGithub />
                 </Icons>
@@ -40,7 +39,6 @@ export default function Footer() {
                 target='_blank'
                 rel='noreferrer'
               >
-                {' '}
                 <Icons>
                   <IoLogoLinkedin />
                 </Icons>
@@ -57,15 +55,13 @@ export default function Footer() {
                   <IoLogoStackoverflow />
                 </Icons>
               </a>
-                    
-      <FooterCopyRight>&copy;{new Date().getFullYear()} by Sophoan Meas</FooterCopyRight>
+              <FooterCopyRight>
+                &copy;{new Date().getFullYear()} by Sophoan Meas
+              </FooterCopyRight>
             </FooterLink>
-   
-   
           </FooterLinkItems>
         </FooterWrapper>
       </FooterContainer>
- 
     </>
   );
 }
