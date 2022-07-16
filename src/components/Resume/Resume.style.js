@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ResumeBg from '../../assets/images/resume-bg.jpg';
+import ResumeBg from '../../assets/images/background/resume-bg.jpg';
 
 export const Container = styled.div`
   display: flex;
@@ -26,14 +26,14 @@ export const Container = styled.div`
 export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
-
+  /* 
   @media screen and (max-width: 760px) {
     height: 1100px;
   }
 
   @media screen and(max-width: 480px) {
     height: 1000px;
-  }
+  } */
 `;
 export const CardWrapper = styled.div`
   display: flex;
@@ -44,7 +44,7 @@ export const CardWrapper = styled.div`
   grid-gap: 30px;
   padding: 0 20px;
   margin-bottom: 3rem;
-  margin-top: 4rem;
+  margin-top: 1rem;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -59,14 +59,15 @@ export const CardWrapper = styled.div`
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
-  background: rgba(253, 253, 253, 0.2);
+  justify-content: center;
+  background: rgba(253, 253, 253, .12);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(1px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   min-height: 160px;
-  min-width: 160px;
+  min-width: 260px;
   margin-bottom: 2px;
   transition: all 0.2s ease-in-out;
 
@@ -78,18 +79,18 @@ export const Card = styled.div`
 `;
 
 export const CardIcon = styled.img`
+  height: 130px;
+  min-width: 130px;
 `;
 
 export const HeaderH1 = styled.h1`
   padding: 1.5rem;
-  font-size: 25px;
+  font-size: 20px;
   color: #ffff;
 `;
 export const Text = styled.p`
   padding: 0 2rem 2rem;
-  font-size: 16px;
+  font-size: 15px;
   color: #ffff;
-  word-spacing: 10%;
-  line-height: 140%;
-  
+  line-height: 150%;
 `;

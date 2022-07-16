@@ -6,8 +6,8 @@ export default function Header({toggleMenu}) {
   return (
       <>
         <NavbarContainer>
+        <LogoName to='/'>Sophoan Meas</LogoName>
           <NavList>
-            <LogoName to='/'>Sophoan Meas</LogoName>
             <HamburgerIcon onClick={toggleMenu}>
               <FaBars/>
             </HamburgerIcon>

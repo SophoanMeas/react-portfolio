@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import HeroBackground from '../../assets/images/hero-bg.jpg';
+import HeroBackground from '../../assets/images/background/hero-bg.jpg';
 import ProfileImg from '../../assets/images/profile-pic.png';
 
 export const ProfileImage = styled.div`
