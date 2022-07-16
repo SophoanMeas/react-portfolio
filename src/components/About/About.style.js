@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import AboutBg from '../../assets/images/about-bg2.jpg';
+import AboutBg from '../../assets/images/background/about-bg2.jpg';
 import ProfileImg from '../../assets/images/profile-pic2.png';
 
 export const Container = styled.div`
