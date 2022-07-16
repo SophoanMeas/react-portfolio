@@ -9,24 +9,28 @@ import Projects from '../assets/images/svg/projects.svg';
 
 const data = [
   {
+    id: 1,
     heading: 'About Me',
     icon: AboutMe,
     description:
       'I am an outgoing, social, charismatic and funny person who enjoy being physically active. I enjoy play soccer, volleyball, beach volleyball, football and exercising at the local gym.\nIn the summertime I enjoy camping and fishing.\nI have a diverse knowledge and experiences in programing from various languages.\nI enjoy manipulating data and developing hardware, real-time applications, and web applications. I have written application in Java, JavaScript, C, C++, C#. I am a Full-Stack MERN Developer. I have excellent work ethics and I enjoy solving problems. I can work in a team environment and independently',
   },
   {
+    id: 2,
     heading: 'Technical Skills',
     icon: TechSkill,
     description:
       'Technical Skills: C/C++, Java, OOP, Data Structure, Process Architecture, Interfacing, Software Design and Testing, SQL, MYSQL, PostgresSQL, Angular, CSS, HTML, RESTful APIs, JavaScript, Network Programming, Unix/Linux, Web Enterprise, .NET, embedded programming, real-time, loT, MQTT Cloud, Circuit logic design, UI web application',
   },
   {
+    id: 3,
     heading: 'Experiences',
     icon: Exp,
     description:
       'Knowledge in Java/C/C++/OOP design patterns, data structure and algorithm\nExperiences in developing web apps, Full-Stack Mern Developer\nRESTFul API/JavaScript/Graphql\n/MySQL/NOSQL/React/MongoDB, GIT version control\nDeveloped and understand of embedded platforms, RT application, multi-processor, RT program in C running on Linux OS/QNX, compile in C\nUnderstanding of networking and the different layer protocols\nBusiness Intelligence and Data Analytics',
   },
   {
+    id: 4,
     heading: 'Work',
     icon: Work,
     description: [
@@ -36,12 +40,14 @@ const data = [
     ],
   },
   {
+    id: 5,
     heading: 'Education',
     icon: School,
     description:
       'Ontario College Advanced Diploma - Algonquin College - Computer Engineering Technology (Computer Science) April 2021',
   },
   {
+    id: 6,
     heading: 'Projects',
     icon: Projects,
     description:
