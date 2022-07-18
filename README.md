@@ -34,7 +34,7 @@ This is my personal portfolio web application built with react.js. It is a singl
 # Usage
 ### Application 🎥
 
-* <a href="https://drive.google.com/file/d/1liIaEnv8ExPunZA502CLPYbZ46KUkyuv/view?usp=sharing" target="_blank"><h4> *React Protfolio*</a>
+* <a href="https://sophoanmeas.github.io/react-protfolio/" target="_blank"><h4> *React Protfolio*</a>
 # Technologies
 Node Package Manager
 * react
