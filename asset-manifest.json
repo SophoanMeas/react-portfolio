@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f51b92a2.css",
+    "main.js": "/react-portfolio/static/js/main.42415cf3.js",
+    "static/media/about-bg2.jpg": "/react-portfolio/static/media/about-bg2.5ecf83b61583301a5e9c.jpg",
+    "static/media/resume-bg.jpg": "/react-portfolio/static/media/resume-bg.1d8d33d977113399e1a5.jpg",
+    "static/media/hero-bg.jpg": "/react-portfolio/static/media/hero-bg.e14b009c9304c4b79ec0.jpg",
+    "static/media/movies-tv-shows.png": "/react-portfolio/static/media/movies-tv-shows.fafdd13f8731016025e9.png",
+    "static/media/quotes-smith.png": "/react-portfolio/static/media/quotes-smith.d286d3ac83681ca58deb.png",
+    "static/media/projects-bg.jpg": "/react-portfolio/static/media/projects-bg.2e0bc9f5edea308242e2.jpg",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.3bb8727b160c4eb03745.png",
+    "static/media/profile-pic.png": "/react-portfolio/static/media/profile-pic.d2964d9b1a83fda585cb.png",
+    "static/media/profile-pic2.png": "/react-portfolio/static/media/profile-pic2.2a3286ff065dbf55fcbf.png",
+    "static/media/coding2.svg": "/react-portfolio/static/media/coding2.ff6cf8c561bbb9731cb93b081592d654.svg",
+    "static/media/code-quiz-challenge.png": "/react-portfolio/static/media/code-quiz-challenge.5d435557f6e79a384173.png",
+    "static/media/coding1.svg": "/react-portfolio/static/media/coding1.369439817005ebe3a443f2c3dabdf53f.svg",
+    "static/media/projects.svg": "/react-portfolio/static/media/projects.86015dccd6dcff48dab7e5676698df30.svg",
+    "static/media/about-me.svg": "/react-portfolio/static/media/about-me.5197018cd29428bbf4900548a643f143.svg",
+    "static/media/work.svg": "/react-portfolio/static/media/work.26e50d31165d0318d7f2bbc1356a674f.svg",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.41567711af56331cde83.png",
+    "static/media/technical-skills.svg": "/react-portfolio/static/media/technical-skills.2893bbb86301b0300386f9ff9566d4c9.svg",
+    "static/media/school.svg": "/react-portfolio/static/media/school.227dfc55ffa972764c0cdf5b112a1ee8.svg",
+    "static/media/experiences.svg": "/react-portfolio/static/media/experiences.4260f45d26d3761b41fef415078471c9.svg",
+    "static/media/coding3.svg": "/react-portfolio/static/media/coding3.1c90d3eb50e642d5cf52b981d5bad0dd.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.f51b92a2.css.map": "/react-portfolio/static/css/main.f51b92a2.css.map",
+    "main.42415cf3.js.map": "/react-portfolio/static/js/main.42415cf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f51b92a2.css",
+    "static/js/main.42415cf3.js"
+  ]
+}
