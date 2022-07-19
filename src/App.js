@@ -2,6 +2,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import Home from './pages/Home';
+import Hero from './components/Hero/Hero';
 
 const theme = {
   colors: {

@@ -23,11 +23,11 @@ export default function Home() {
   <MobileSideBar isOpen={isOpen} toggleMenu={toggleMenu}/>
   <Header toggleMenu={toggleMenu}/>
   <Routes>
-  <Route path="/react-portfolio/" element={<Hero/>}/>
-  <Route path="/react-portfolio/about" element={<AboutPage/>}/>
-  <Route path="/react-portfolio/profile" element={<ProjectCard/>}/>
-  <Route path="/react-portfolio/contact" element={<ContactPage/>}/>
-  <Route path="/react-portfolio/resume" element={<ResumePage/>}/>
+  <Route path="/" element={<Hero/>}/>
+  <Route path="/about" element={<AboutPage/>}/>
+  <Route path="/profile" element={<ProjectCard/>}/>
+  <Route path="/contact" element={<ContactPage/>}/>
+  <Route path="/resume" element={<ResumePage/>}/>
   </Routes>
   <ProjectContainer/>
   <Footer/>
