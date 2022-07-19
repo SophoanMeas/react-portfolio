@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sophoanmeas.github.io/sophoanmeas",
-  "name": "sophoanmeas",
+  "homepage": "https://sophoanmeas.github.io/react-portfolio",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
